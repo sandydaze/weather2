@@ -31,7 +31,7 @@ public class ConfigTornado implements IConfigCategory {
 	@ConfigComment("Grab entity items, overridden by Storm_Tornado_grabPlayersOnly")
 	public static boolean Storm_Tornado_grabItems = false;
 	@ConfigComment("Grab blocks based on how well a diamond axe can mine the block, so mostly wooden blocks")
-	public static boolean Storm_Tornado_GrabCond_StrengthGrabbing = true;
+	public static boolean Storm_Tornado_GrabCond_StrengthGrabbing = false;
 	@ConfigComment("Use a list of blocks instead of grabbing based on calculated strength of block, if true this overrides StrengthGrabbing and RefinedGrabRules")
 	public static boolean Storm_Tornado_GrabCond_List = false;
 	public static boolean Storm_Tornado_GrabCond_List_PartialMatches = false;
